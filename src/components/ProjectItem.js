@@ -7,6 +7,10 @@ function ProjectItem({ name, about, technologies }) {
       <p>{about}</p>
       <div className="technologies">
         {/* render a <span> for each technology in the technologies array */}
+        <span>{technologies[0]}</span>
+        <span>{technologies[1]}</span>
+        <span>{technologies[2]}</span>
+        {/* end of technologies */}
       </div>
     </div>
   );
